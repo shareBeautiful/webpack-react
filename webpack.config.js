@@ -104,7 +104,7 @@ module.exports = {
     },
     // 配置一些规则，提升解析速度
     resolve: {
-        extensions: ['.js', '.jsx']
+        extensions: ['.js', '.jsx'] // 可以取消.js,.jsx后缀名
     },
     // plugins是用于扩展webpack功能的
     plugins: [
