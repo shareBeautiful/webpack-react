@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --config webpack.config.js --color --progress --hot --open",
-    "build": "webpack"
+    "build": "webpack --mode production",
+    "server": "webpack-dev-server --mode development --open"
   },
   "keywords": [
     "react",
@@ -16,13 +17,18 @@
   "author": "xiaoxin",
   "license": "MIT",
   "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "autoprefixer-loader": "^3.2.0",
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.4",
+    "babel-plugin-react-transform": "^3.0.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
     "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.8.3",
+    "react-hot-loader": "^4.1.2",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "webpack": "^4.6.0",

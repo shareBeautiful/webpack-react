@@ -1,9 +1,10 @@
 import React from 'react';
 import './app.scss';
 function App() {
+	const name = 'app';
     return(
         <div>
-            hello app
+            hello { name }
         </div>
     )
 }
